@@ -100,19 +100,7 @@ We recommend to work on a specific branch in your git repository clone of this p
 
 Help will be provided on the mailing list or the matrix channel (see the geOrchestra website).
 
-
-## Versioning
-
-`MapStore2-geOrchestra` and `MapStore2` versions(***stable branch name***) are added to `version.txt` one below the other (*order is strictly followed*)
-
-**Example**:
-
-```text
-version-mp2-georchestra
-version-mp2
-```
-
-## Release procedure
+## Release procedure and Versioning
 
 All developments land in master branch first and releases will be created from a stable branch.
 As soon as a new major version is ready to be released (developments on master are completed and tested) a new stable branch will be created from master (YYYY.MM.xx, eg. 2022.02.xx).
